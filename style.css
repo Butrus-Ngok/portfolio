@@ -95,9 +95,10 @@ body {
     position: fixed;
     inset: 0 0 auto;
     z-index: 1000;
-    border-bottom: 1px solid var(--line);
+    border-bottom: 1px solid rgba(247, 201, 76, 0.35);
     backdrop-filter: blur(16px);
-    background: rgba(7, 11, 20, 0.7);
+    background: linear-gradient(180deg, rgba(7, 11, 20, 0.9), rgba(7, 11, 20, 0.76));
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
 }
 
 .nav-container {
